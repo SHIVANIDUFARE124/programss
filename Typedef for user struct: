@@ -1,0 +1,14 @@
+# include <stdio.h>
+int main( )
+{
+	// Initialize variables of type int
+	int  a = 5, b = 2, c ;
+	// Declare variable of type int
+	float  d ;
+	// Assign value to c
+	c = a / b ;
+	printf ( "%d\n", c ) ;
+	// Store result of float division in variable of float type
+	d = ( float ) a / b ;
+	printf ( "%f\n", d ) ;
+}
